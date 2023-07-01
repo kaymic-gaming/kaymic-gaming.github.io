@@ -1,0 +1,11 @@
+#import "./Page.Fragment.gql"
+
+query PageBySlug($slug: String!) {
+  pageCollection(where: { path: $slug }, limit: 1) {
+    items {
+      ...PageFragment
+
+      body
+    }
+  }
+}

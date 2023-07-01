@@ -1,0 +1,11 @@
+fragment PageFragment on Page {
+  title
+  # slug
+  # subtitle
+  # navigationTitle
+
+  sys {
+    id
+    firstPublishedAt
+  }
+}
