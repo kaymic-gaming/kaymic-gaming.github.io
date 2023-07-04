@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   generate: {
     routes: [
       '/',
-      '/setup',
       // '/_redirects',
     ],
   },

@@ -1,0 +1,9 @@
+#import "./Page.Fragment.gql"
+
+query PageIndex {
+  pageCollection(order: path_ASC) {
+    items {
+      ...PageFragment
+    }
+  }
+}

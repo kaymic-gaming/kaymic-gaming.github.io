@@ -1,5 +1,6 @@
 fragment PageFragment on Page {
   title
+  path
   # slug
   # subtitle
   # navigationTitle
